@@ -1,11 +1,12 @@
 body{
-    display:flex;
-    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
 }
 .header{
     display:flex;
     justify-content: space-around;
     background-color: #1f2937;
+    background-size: cover;
     color:white;
 }
 .footer{
@@ -27,9 +28,29 @@ body{
     background-color: #1f2937;
     color:white;
 }
-.rightstep1{
+.step1left{
+    display: flex;
+    flex-direction: column;
+    margin:auto
+}
+.step1right{
     display: flex;
     justify-content: center;
     align-items: center;
     margin:auto;
+}
+
+.step2{
+    text-align: center;
+}
+
+
+.step3{
+    background-color: #E5E7EB;
+    text-align: center;
+}
+
+.step4{
+    display: flex;
+    justify-content: space-around;
 }
