@@ -4,8 +4,32 @@ body{
 }
 .header{
     display:flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color:white;
+}
+.footer{
+    text-align: center;
+    margin-top: auto;
+}
+.rightheader{
+    display: flex;
+    gap:10px;
 }
 .body{
     display:flex;
     flex-direction: column;
+}
+
+.step1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color:white;
+}
+.rightstep1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
 }
