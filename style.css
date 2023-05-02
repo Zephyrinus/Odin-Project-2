@@ -64,8 +64,10 @@ body{
 }
 
 .failbox{
-
+    max-width: fit-content;
+    max-height: fit-content;
 }
+
 
 .step3{
     background-color: #E5E7EB;
